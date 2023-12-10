@@ -19,11 +19,6 @@ export default async function Page() {
     totalPendingInvoices,
   } = await fetchCardData();
 
-  // const totalPaidInvoices = (await fetchCardData()).totalPaidInvoices;
-  // const totalPendingInvoices = (await fetchCardData()).totalPendingInvoices;
-  // const numberOfInvoices = (await fetchCardData()).numberOfInvoices;
-  // const numberOfCustomers = (await fetchCardData()).numberOfCustomers;
-
   return (
     <main>
       <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
